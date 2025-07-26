@@ -9,7 +9,7 @@ from datetime import datetime
 WEBHOOK_URL = "https://discord.com/api/webhooks/..."  # Hier euer Webhook 
 PROCESS_NAME = "RobloxPlayerBeta.exe" # Anpassen je nach microsoft oder roblox.com version 
 LOG_PATH = os.path.expandvars(r"%LOCALAPPDATA%\Roblox\logs")   # Euer log path müsst ihn anpassen jenachdem welche version ihr habt (standart für roblox.com version)
-KEYWORDS = ["Disconnect reason received"]
+KEYWORDS = ["Disconnect reason received", "Client:Disconnect", "InGame.ConnectionError.DisconnectIdle"]
 
 BOOSTR_TRIGGERS = [".9"]
 CHECK_INTERVAL = 60  ## Interval in Sekunden kann auch bis 20min oder so hoch gestellt werden
