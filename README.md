@@ -67,7 +67,7 @@ Lade das Skript (`roblox_monitor.py`) im Releases-Bereich dieses Repos herunter.
 WEBHOOK_URL = "https://discord.com/api/webhooks/..."  # Dein Discord Webhook-Link
 PROCESS_NAME = "RobloxPlayerBeta.exe"                 # Anpassen je nach Version
 LOG_PATH = os.path.expandvars(r"%LOCALAPPDATA%\Roblox\logs")   # Ggf. Pfad anpassen
-KEYWORDS = ["Disconnect reason received"]
+KEYWORDS = ["Disconnect reason received", "Client:Disconnect"]
 BOOSTR_TRIGGERS = [".9"]
 CHECK_INTERVAL = 60  # Intervall in Sekunden
 ```
